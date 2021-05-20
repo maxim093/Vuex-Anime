@@ -4,7 +4,6 @@
       <h3 class="CharacterDetails--loading-text">Loading...</h3>
       <img class="CharacterDetails--loading-spinner" src="https://i.gifer.com/ZLnU.gif" alt="" />
     </div>
-
     <img v-else :src="character" alt="" />
     <base-button class="Btn--green" @click="generateRandomCharacter">Zeig mir mehr!</base-button>
   </div>
